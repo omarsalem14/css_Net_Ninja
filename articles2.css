@@ -1,0 +1,16 @@
+body{
+    background-color: #eee;
+}
+#main-content {
+    background-color: #fff;
+    width:1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 20px;
+
+}
+p{
+    font-size: 14px;
+    line-height: 2em;
+    margin-bottom: 32px;
+}

@@ -1,0 +1,74 @@
+/*How To Target Particular Element With The Same Tag in The Same  By Adding "+" Bafore It*/
+#all-articles h2 + p{
+    color: red;
+    font-size: 16px;
+}
+#all-articles h2{
+    font-size: 2em;
+}
+#all-articles p{
+    font-size: 80%;
+}
+#all-articles h2,#all-articles p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:underline ;
+    font-weight: inherit;
+    text-transform:capitalize;
+    background-color: lightcoral;
+    color:blue ;
+}
+#all-articles p{    
+    font-size:14px;
+    line-height:2em;
+    margin-top: 32px;
+}
+/*How To Targeting The Attributes By Adding The Attribute into "[]"*/
+span{
+    display:block;
+}
+span[class="omar"]{
+    color: red;
+}
+span[class="oma"]{
+    color:blue;
+}
+span[class="om"]{
+    color:yellow;
+}
+
+a[href$="pdf"]{
+    color:red;
+}
+a[href^="http"]{
+    color:pink;
+}
+/*Psuedo Classes*/
+a:hover{
+    color: black;
+}
+a:active{
+    color:green;
+}
+a:visited{
+    color:orange;
+}
+/*How To Target The First And Last Child  And Last And Fist Of Types Selector*/
+article p:first-child{
+    color:pink;
+}
+article p:last-child{
+    color: yellow;
+}
+/*nth of childes*/
+li:nth-child(1),li:nth-child(5){
+    font-weight: bold;
+    background-color: darkblue;
+}
+li:nth-child(even){
+    color: yellowgreen;
+    background-color:darkslateblue;
+}
+li:nth-child(odd){
+    color:yellow;
+    background-color:firebrick;
+}
